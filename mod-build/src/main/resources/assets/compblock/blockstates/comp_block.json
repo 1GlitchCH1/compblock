@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "compblock:block/comp_block" },
+    "facing=south": { "model": "compblock:block/comp_block", "y": 180 },
+    "facing=east":  { "model": "compblock:block/comp_block", "y": 90  },
+    "facing=west":  { "model": "compblock:block/comp_block", "y": 270 }
+  }
+}
