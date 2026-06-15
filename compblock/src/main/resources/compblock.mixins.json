@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.compblock.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "LiquidBlockRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

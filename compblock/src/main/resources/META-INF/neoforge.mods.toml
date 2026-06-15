@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mixins]]
+config="compblock.mixins.json"
+
+[[mods]]
+    modId="compblock"
+    version="1.0.0"
+    displayName="Computer Block"
+    description='''
+        Adds a computer block with an event management GUI.
+        Right-click the block to open the event control panel.
+    '''
+
+[[dependencies.compblock]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.compblock]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
